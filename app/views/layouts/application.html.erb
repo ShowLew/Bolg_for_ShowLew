@@ -1,0 +1,18 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+  <head>
+    <title>BlogForShowlew</title>
+    <%= csrf_meta_tags %>
+    <%= csp_meta_tag %>
+    <%= Gon::Base.render_data({}) %>  <!--需要放置在application.js之前，否则coffe中得gon无法加载。-->
+
+    <%= stylesheet_link_tag    'application' %>
+    <%= yield :css %>
+    <%= javascript_include_tag 'application', 'data-turbolinks-track': 'reload' %>
+    <%= yield :js %>
+  </head>
+
+  <body>
+    <%= yield %>
+  </body>
+</html>
