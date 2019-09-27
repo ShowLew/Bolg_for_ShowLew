@@ -39,6 +39,11 @@ gem 'bootsnap', '>= 1.1.0', require: false
 # editor for articles
 gem "wysiwyg-rails"
 
+# A simple Blog engine
+gem "lines-engine"
+
+gem "rmagick"
+
 group :development, :test do
   # Call 'byebug' anywhere in the code to stop execution and get a debugger console
   gem 'byebug', platforms: [:mri, :mingw, :x64_mingw]

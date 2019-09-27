@@ -1,7 +1,53 @@
 .home_icon {
   border-radius: 50%;
-  width: 80px;
-  height: 80px;
+  width: 100px;
+  height: 100px;
   margin: 0 auto;
-  background: url(/assets/showlew.png);
+}
+.top{
+  margin-top: 70px;
+}
+
+.home_hr {
+  display: block;
+  margin: 25px auto !important;
+  height: 2px;
+  background-color: #000000;
+  border:none;
+  width: 950px;
+}
+
+.home_located {
+  margin: 10px -800px -20px 0;
+}
+
+.introduction {
+  width: 900px;
+  height: 400px;
+  font-size: 19px;
+  background-color: #FFFFFF;
+  margin: 0 auto;
+}
+
+.introduction a {
+  text-decoration:underline;
+}
+
+.foot_link {
+  width: 900px;
+  margin: 0 auto;
+}
+
+.first_box {
+  float: left;
+  margin-left: 47px;
+  width: 100px;
+  height: 100px;
+}
+
+.box {
+  float: left;
+  margin-left: 137px;
+  width: 100px;
+  height: 100px;
 }
